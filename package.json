@@ -1,0 +1,28 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "School User Management Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Hadhi Jawahir",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.2",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "mongoose": "^5.4.22",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
